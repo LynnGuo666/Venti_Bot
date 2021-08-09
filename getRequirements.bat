@@ -1,1 +1,1 @@
-pip freeze > requirements.txt
+pipreqs . --encoding=utf8 --force
