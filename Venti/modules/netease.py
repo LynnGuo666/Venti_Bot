@@ -14,7 +14,7 @@ def search_netease(keyword: str, logger: Logger) -> list:
     r = requests.get(f"http://cloud-music.pl-fe.cn/song/detail?ids={sid}").json()
     pic = r['songs'][0]['al']['picUrl']
     # 获取播放Url
-    r = requests.get("http://cloud-music.pl-fe.cn/song/url?id={}".format(sid)).json()
+    r = requests.get(f"http://cloud-music.pl-fe.cn/song/url?id={sid}").json()
     src = r['data'][0]['url']
     logger.info(f'Result {title}')
     return [{
