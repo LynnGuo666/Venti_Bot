@@ -25,4 +25,5 @@ async def help_txt(msg: TextMsg, *args):
     await msg.reply_card(HELP_CARD)
 
 
-bot.run()
+def main():
+    bot.run()
