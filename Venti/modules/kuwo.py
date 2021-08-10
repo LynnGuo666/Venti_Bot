@@ -13,7 +13,7 @@ def search_kuwo(keyword: str, logger: Logger) -> list:
     pic = r['data']['list'][0]['pic']
     # 获取播放Url
     r = requests.get(f"{KUWO_API_URL}/kuwo/url?rid={rid}").json()
-    src = r[0]['url']
+    src = r['url']
     logger.info(f'Result {title}')
     return [{
         "type": "card",
