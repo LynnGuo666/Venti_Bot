@@ -1,5 +1,5 @@
 from khl import Cert, Bot, TextMsg
-from Venti.constant import HELP_CARD
+from Venti.constant import HELP_CARD, EMPTY_WARN
 from Venti.utils.utils import get_error_card
 from Venti.modules.netease import search_netease
 
@@ -9,12 +9,15 @@ bot = Bot(cmd_prefix=['='], cert=cert)
 
 @bot.command("s")
 async def search(msg: TextMsg, *args):
-    keyword = ' '.join(args)
-    try:
-        card = search_netease(keyword, bot.logger)
-    except Exception as e:
-        card = get_error_card(e)
-    await msg.reply_card(card)
+    if len(args) == 0:
+        await msg.reply_card(EMPTY_WARN)
+    else:
+        keyword = ' '.join(args)
+        try:
+            card = search_netease(keyword, bot.logger)
+        except Exception as e:
+            card = get_error_card(e)
+        await msg.reply_card(card)
 
 
 @bot.command("h")

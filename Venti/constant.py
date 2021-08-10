@@ -102,3 +102,19 @@ ERROR_CARD = [
     ]
   }
 ]
+EMPTY_WARN = [
+  {
+    "type": "card",
+    "theme": "secondary",
+    "size": "lg",
+    "modules": [
+      {
+        "type": "section",
+        "text": {
+          "type": "plain-text",
+          "content": "搜索关键词不能为空哦~"
+        }
+      }
+    ]
+  }
+]
