@@ -1,6 +1,6 @@
 import requests
 from logging import Logger
-from Venti.constant import NETEASE_API_URL
+from venti.constant import NETEASE_API_URL
 
 
 def search_netease(keyword: str, logger: Logger) -> list:

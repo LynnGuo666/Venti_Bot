@@ -1,4 +1,4 @@
-from Venti.main import main
+from venti.main import main
 
 if __name__ == '__main__':
     main()

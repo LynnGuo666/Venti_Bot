@@ -1,7 +1,7 @@
 from khl import Cert, Bot, TextMsg
-from Venti.constant import HELP_CARD, EMPTY_WARN
-from Venti.utils.utils import get_error_card
-from Venti.modules.netease import search_netease
+from venti.constant import HELP_CARD, EMPTY_WARN
+from venti.utils.utils import get_error_card
+from venti.modules.netease import search_netease
 
 cert = Cert(client_id="svxTmFJ6en21w3u_", client_secret="l5qOdVMcPWMYRN8w", token="1/MTA0MjQ=/vPhQGaO6vosmVg7vtrtE9Q==")
 bot = Bot(cmd_prefix=['='], cert=cert)

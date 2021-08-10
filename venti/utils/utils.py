@@ -1,4 +1,4 @@
-from Venti.constant import ERROR_CARD
+from venti.constant import ERROR_CARD
 
 
 def get_error_card(e: BaseException) -> list:
