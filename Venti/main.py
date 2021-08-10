@@ -5,7 +5,7 @@ from Venti.modules.netease import search_netease
 from Venti.modules.kuwo import search_kuwo
 
 
-cert = Cert(client_id="svxTmFJ6en21w3u_", client_secret="l5qOdVMcPWMYRN8w", token="1/MTA0MjQ=/vPhQGaO6vosmVg7vtrtE9Q==")
+cert = Cert(client_id="TruoTPYpQdxdAS9Z", client_secret="zvH73SuW1tdMDCqT", token="1/MTA0MjU=/uCCJtVzHBjXJ4DbOiEWgGg==")
 bot = Bot(cmd_prefix=['='], cert=cert)
 
 

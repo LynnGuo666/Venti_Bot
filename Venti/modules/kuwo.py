@@ -9,7 +9,7 @@ def search_kuwo(keyword: str, logger: Logger) -> list:
     r = requests.get(f"{KUWO_API_URL}/kuwo/search/searchMusicBykeyWord?key={keyword}").json()
     rid = r['data']['list'][0]['rid']
     title = r['data']['list'][0]['name']
-    artist_name = ['data']['list'][0]['artist']
+    artist_name = r['data']['list'][0]['artist']
     pic = r['data']['list'][0]['pic']
     # 获取播放Url
     r = requests.get(f"{KUWO_API_URL}/kuwo/url?rid={rid}").json()
