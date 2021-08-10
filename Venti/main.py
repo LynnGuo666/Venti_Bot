@@ -27,3 +27,7 @@ async def help_txt(msg: TextMsg, *args):
 
 def main():
     bot.run()
+
+
+if __name__ == '__main__':
+    main()
