@@ -95,7 +95,7 @@ ERROR_CARD = [
       {
         "type": "section",
         "text": {
-          "type": "plain-text",
+          "type": "kmarkdown",
           "content": "STR"
         }
       }
