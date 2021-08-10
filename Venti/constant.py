@@ -1,4 +1,5 @@
-VERSION = 'Thyme 0.1.0.2'
+VERSION = 'Thyme Pre-Release 1.0'
+NETEASE_API_URL = 'http://cloud-music.pl-fe.cn'
 HELP_CARD = [
   {
     "type": "card",
@@ -74,6 +75,29 @@ HELP_CARD = [
             "content": "歌曲版权归网易云所有，因使用该软件所导致的法律问题，开发人员概不负责\n当前版本号：{}".format(VERSION)
           }
         ]
+      }
+    ]
+  }
+]
+ERROR_CARD = [
+  {
+    "type": "card",
+    "theme": "secondary",
+    "size": "lg",
+    "modules": [
+      {
+        "type": "header",
+        "text": {
+          "type": "plain-text",
+          "content": "出现异常，请联系开发者处理"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "plain-text",
+          "content": "STR"
+        }
       }
     ]
   }
