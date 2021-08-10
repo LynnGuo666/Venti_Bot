@@ -11,10 +11,10 @@ def search_netease(keyword: str, logger: Logger) -> list:
     title = r['result']['songs'][0]['name']
     artist_name = r['result']['songs'][0]['artists'][0]['name']
     # 获取图片Url
-    r = requests.get(f"http://cloud-music.pl-fe.cn/song/detail?ids={sid}").json()
+    r = requests.get(f"{NETEASE_API_URL}/song/detail?ids={sid}").json()
     pic = r['songs'][0]['al']['picUrl']
     # 获取播放Url
-    r = requests.get(f"http://cloud-music.pl-fe.cn/song/url?id={sid}").json()
+    r = requests.get(f"{NETEASE_API_URL}/song/url?id={sid}").json()
     src = r['data'][0]['url']
     logger.info(f'Result {title}')
     return [{
