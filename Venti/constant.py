@@ -34,18 +34,22 @@ HELP_CARD = [
       {
         "type": "section",
         "text": {
-          "type": "paragraph",
-          "cols": 2,
-          "fields": [
-            {
-              "type": "kmarkdown",
-              "content": "获得帮助:\n点歌:"
-            },
-            {
-              "type": "kmarkdown",
-              "content": "=h\n=s `歌曲名称/歌曲ID`"
-            }
-          ]
+          "type": "kmarkdown",
+          "content": "网易云点歌：    `=s` 歌曲名/歌曲ID"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "kmarkdown",
+          "content": "帮助：              `=h`  歌曲名"
+        }
+      },      
+      {
+        "type": "section",
+        "text": {
+          "type": "kmarkdown",
+          "content": "酷我音乐点歌：`=kws` 歌曲名"
         }
       },
       {
