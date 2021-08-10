@@ -1,5 +1,5 @@
 from khl import Cert, Bot, TextMsg
-from constant import *
+from Venti.constant import *
 import requests
 
 cert = Cert(client_id="svxTmFJ6en21w3u_", client_secret="l5qOdVMcPWMYRN8w", token="1/MTA0MjQ=/vPhQGaO6vosmVg7vtrtE9Q==")

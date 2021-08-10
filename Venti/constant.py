@@ -1,4 +1,4 @@
-VERSION = 'Thyme 0.1.0.1'
+VERSION = 'Thyme 0.1.0.2'
 HELP_CARD = [
   {
     "type": "card",
@@ -9,14 +9,14 @@ HELP_CARD = [
         "type": "header",
         "text": {
           "type": "plain-text",
-          "content": "NCBot - 帮助"
+          "content": "Venti Bot - 帮助"
         }
       },
       {
         "type": "section",
         "text": {
           "type": "plain-text",
-          "content": "这是一款网易云的点歌姬~"
+          "content": "全天下最好的吟游诗人来啦~"
         }
       },
       {
