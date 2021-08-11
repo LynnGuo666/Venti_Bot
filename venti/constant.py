@@ -1,4 +1,4 @@
-VERSION = 'Thyme Pre-Release 1.3'
+VERSION = 'Venti Pro Pre-Release 1.1.0'
 NETEASE_API_URL = 'http://cloud-music.pl-fe.cn'
 KUWO_API_URL = 'http://127.0.0.1:7002'
 HELP_CARD = [

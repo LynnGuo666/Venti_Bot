@@ -35,7 +35,7 @@ def mvsearch_kuwo(keyword: str, logger: Logger) -> list:
                 }
             },
             {
-                "type": "audio",
+                "type": "video",
                 "title": title,
                 "src": src,
                 "cover": pic
