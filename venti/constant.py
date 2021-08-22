@@ -1,4 +1,4 @@
-VERSION = 'Venti Pro Pre-Release 1.1.0'
+VERSION = 'Venti Pro Pre-Release 1.1.1'
 NETEASE_API_URL = 'http://cloud-music.pl-fe.cn'
 KUWO_API_URL = 'http://127.0.0.1:7002'
 HELP_CARD = [
@@ -77,7 +77,7 @@ HELP_CARD = [
         "elements": [
           {
             "type": "plain-text",
-            "content": "歌曲版权归网易云所有，因使用该软件所导致的法律问题，开发人员概不负责\n当前版本号：{}".format(VERSION)
+            "content": "歌曲版权归网易云和酷我所有，因使用该软件所导致的法律问题，开发人员概不负责\n当前版本号：{}".format(VERSION)
           }
         ]
       }
