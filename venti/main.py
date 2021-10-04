@@ -6,7 +6,7 @@ from venti.modules.netease.search import search_netease
 from venti.modules.kuwo.search import search_kuwo
 from venti.modules.kuwo.play import play_kuwo
 
-cert = Cert(client_id="svxTmFJ6en21w3u_", client_secret="l5qOdVMcPWMYRN8w", token="1/MTA0MjQ=/vPhQGaO6vosmVg7vtrtE9Q==")
+cert = Cert(client_id="", client_secret="", token="")
 bot = Bot(cmd_prefix=['='], cert=cert)
 
 
